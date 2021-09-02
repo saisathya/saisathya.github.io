@@ -27,8 +27,12 @@ title: Sathya's Almanac
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
+permalink: pretty
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+paginate: 5
+paginate_path: "/blog/page:num"
 
 # Build settings
 theme: bulma-clean-theme
@@ -39,6 +43,17 @@ plugins:
 # Navigation bar at the top of every page
 fixed_navbar: top
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Sai Sathyanantha Rajandiran"
+      layout: post
+      hide_hero: true
+      
+hide_share_buttons: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
