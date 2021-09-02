@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sathya's Almanac
+title: Sathya's Almanack
 
 # email: your-email@example.com
 
@@ -52,7 +52,7 @@ defaults:
       author: "Sai Sathyanantha Rajandiran"
       layout: post
       hide_hero: true
-      
+
 hide_share_buttons: true
 # Exclude from processing.
 # The following items will not be processed, by default.
