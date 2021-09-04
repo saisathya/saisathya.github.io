@@ -39,6 +39,7 @@ theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Navigation bar at the top of every page
 fixed_navbar: top
